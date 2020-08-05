@@ -17,7 +17,7 @@
   Navigate into your site’s directory and start it up.
 
   ```shell
-  cd my-hello-world-starter/
+  cd learning-gatsby-blog/
   gatsby develop
   ```
   
