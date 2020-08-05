@@ -1,22 +1,29 @@
 ## 🚀 Quick start
 
-**Create a Gatsby site.**
-
-  Use the Gatsby CLI to create a new site, specifying the hello-world starter.
+**Install the Gatsby CLI**
 
   ```shell
-  # create a new Gatsby site using the hello-world starter
-  gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
+  npm install -g gatsby-cli
   ```
+  
+**Install packages**
 
-**Start developing.**
+  ```shell
+  yarn install
+  ```
+  
+**Start developing**
 
-  Navigate into your new site’s directory and start it up.
+  Navigate into your site’s directory and start it up.
 
   ```shell
   cd my-hello-world-starter/
   gatsby develop
   ```
+  
+**Preview the site**
+
+Open http://localhost:8000/ to see it.
 
 **Deploy**
 
