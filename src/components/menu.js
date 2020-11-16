@@ -9,7 +9,7 @@ export default function Menu() {
         query HeadingQuery {
           site {
             siteMetadata {
-              siteName
+              name
             }
           }
         }
@@ -18,7 +18,7 @@ export default function Menu() {
         <header>
           <h3 className="nav-brand">
             <a href={`${process.env.GATSBY_SITE_URL}/`}>
-              {data.site.siteMetadata.siteName}'s Blog
+              {data.site.siteMetadata.name}
             </a>
           </h3>
           <ul>
