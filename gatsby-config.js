@@ -7,9 +7,11 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    siteName: `Phong Do`,
+    name: `Life of Phong`,
+    author: `Phong Do`,
     title: `Welcome to Phong Do's website`,
     description: `Blazing fast modern site generator for React`,
+    keywords: `hanoi, vietnam, gatsby`,
     url: "https://www.doe.com", // No trailing slash allowed!
     image: "/images/snape.jpg", // Path to your image you placed in the 'static' folder
   },

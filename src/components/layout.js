@@ -9,7 +9,7 @@ export default function Layout({ children, data }) {
         query LayoutQuery {
           site {
             siteMetadata {
-              siteName
+              name
             }
           }
         }
