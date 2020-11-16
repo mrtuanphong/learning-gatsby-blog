@@ -1,6 +1,5 @@
 import React from "react";
 import { graphql, StaticQuery } from "gatsby";
-import "./layout.css";
 import Menu from "./menu";
 
 export default function Layout({ children, data }) {
