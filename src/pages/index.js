@@ -16,7 +16,7 @@ export default ({ data }) => {
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
       <h1 className="text-5xl">Welcome to {data.site.siteMetadata.name}</h1>
-      {/* <Tabletop /> */}
+      <Tabletop />
     </Layout>
   )
 }
